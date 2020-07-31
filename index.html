@@ -1,0 +1,117 @@
+<Doctype html!>
+    <title>Gtbank currency transfer form</title>
+<head>
+    <link rel="stylesheet" type="text/css"href="C:\Autodesk\vscode\css file.css">
+    
+</head>
+<body>
+     
+    <main>
+        
+         <h1>
+         Local Curreny  Funds  Transfer Instruction
+         </h1>
+
+         <img src="download (1).png">
+        
+        <div class="date">
+
+         <form class="form">
+              <label class="first-label">
+                  <input type="date" id="start" name="trip-start"
+                 value="2018-07-22"
+                 min="2018-01-01" max="2018-12-31">
+               </label>
+            </form>
+        </div>
+        <div>
+            <h2 class="nothing">
+              The bank hereby authorised to transfer as follows:
+            </h2>
+           <h2 class="authorisation">
+            Debit Details(Paying Party)
+            </h2>
+            <form class="debit details">
+                <div>
+      
+                   
+               <label for="AName" class="account name"></label><input type="text" id="AName" name=Aname placeholder= "Account Name" ></div>
+               <div>
+                <label for="ANumber" class="account number"></label><input type="number" id="ANumber" name=Anumber placeholder= "Account Number" >
+                <label for="Amount" class="amount"></label><input type="number" id="AmountN" name=AmountN placeholder= "Amount" >
+               </div>
+               <div>
+                  
+                  <label  for="amount" class="amountW"><input type="number" id=AmountW name=AmountW placeholder="Amount in words"></label>
+                  
+               </div>
+                <label for="ref" class="reference"><input type="text" id="reference" placeholder="References"></label>
+            </form>
+        
+            <h2 class="authorisation">
+               Credit Detail(Recieving Party)
+
+            </h2>
+            <form action="/action_page.php">
+                <div><label for="AName" class="account name"></label><input type="text" id="AName" name=Aname placeholder= "Beneficiary Name" ></div>
+                <div><label for="ANumber" class="account number"></label><input type="number" id="ANumber" name=Aname placeholder= "Account Number" >
+                
+              
+
+                
+              </div>
+                <div><label for="BankName" class="Bank name"></label><input type="text" id="AName" name=Bname placeholder= "Bank Name" ></div>
+                <div><label for="Sortcode" class="sortcode"></label><input type="number" id="Sortcode" name=Scode placeholder= "Sort Code" ></div>
+
+            </form>
+       </div>
+    <hr class="first line">
+
+
+        <div class="confirmation">
+           <p class="cons">
+
+           <b>We confirm the above details are accurate and the Bank is authorized to affect the transfer accordingly</b>
+          
+            <p>
+              <b>
+               *please note that failed transaction initaied before 2pm can only be reversed after 24 hours,while other transactions before the stipulated time will be reversed in 48 hours
+              </b>
+          </p>
+           <h2 class="transfer">
+              Transfer Reciept
+           </h2>
+          
+      
+               <h3> Transfer Type</h3>
+               <div class=transfertype>
+                 <label>
+                 <p id=internal >Internal Transfer<input type="radio" placeholder="internal transfer"/></p>
+                 <p id=neft> NEFT <input type="radio"/></p>
+                 <p id=nip> NIP <input type="radio"/></p>
+                 <p id= cifts> CIFTS <input type="radio"/></p>
+                  </label>
+                </div>
+               
+          </div>
+           
+           <form>
+             <label for="BAName" class="account name"></label><input type="text" id="AName" name=BAname placeholder= "Beneficiary Name" ></div>
+             
+             <label for="Amount" class="amount"></label><input type="number" id="AmountN" name=AmountN placeholder= "Amount" >
+             <label for="Branch" class="Branch"></label><input type="text" id="OBranch" name=OBranch placeholder= " Originating Branch" >
+             <label for="sender" class="amount"></label><input type="text" id="SName" name=SName placeholder= "Name of Sender" >
+             <label for="date" class="date"></label><input type="date" id="DDate" name=DDate placeholder= "Date" >
+             
+           </form>
+            
+        </div>
+
+    </main>
+</body>
+<footer>
+    <p>instant transfer of Funds to other Banks</p>
+    <p><span>Available on</span> Internet banking and Bank 737</p>
+    <p>to register for internent Banking ,Simply dial *737*6*5# or visit <a href="www.gtbank.com">GTBank.com</a> and click the register button on the internet Banking Tab</a></p>
+</footer>
+</Doctype>

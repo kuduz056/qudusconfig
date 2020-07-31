@@ -1,0 +1,120 @@
+
+main{text-justify: auto;
+    background-color: lightgray;
+ margin-top: 150px;
+ 
+}
+body{
+    text-align:left;
+    padding-right: 200px;
+    font-size: 20px;
+    font-family: monospace;
+    box-sizing:120px;
+    
+}
+h1{
+    text-weight: 10px;
+    text-align: left;
+    background-color:grey;
+    padding-right: 30px;
+    padding-left:3px  ;
+    margin-right:610px;
+font-size: 30px;
+text-align: center;
+}
+
+
+    .form{
+        text-align: right;
+
+}
+
+img{
+    float:right;
+    margin-left: 20px;
+    image-rendering:auto ;
+    width:120px  ;
+}
+h3{
+    background-color:orangered;
+    margin-right: 1100px;
+    margin-bottom:10px;
+    text-align: center;
+    font-size:20px;
+}
+.confirmation{font-size: 15px;
+
+}
+.first line{
+    line-height: 4cm;
+}
+footer{font-size: 15px;
+background-color: lightslategrey;
+}
+.cons{
+    background-color: mintcream;
+}
+.authorisation{
+    margin-right: 800px;
+    background-color:orangered;
+    text-align: center;
+}
+.nothing{
+    margin-right:500px;
+}
+.recieving{
+
+}
+.transfer{
+     margin-right:400px ;
+     margin-left:400px;
+     margin-bottom: 2mm;
+     margin-top: auto;
+     background-color: orangered;
+     text-align: center;
+     height: 12mm;
+     
+}
+#id{height: 7px;
+
+}
+.credit details{
+    border-color: maroon;
+    box-shadow: 0px 10px;
+    box-sizing: content-box;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+  input{
+      width:400px;
+      height: 44px;
+      margin:15px;
+      font-size: 20px;
+      border-radius: 1.5mm;
+      padding-left: 5mm;
+      font-weight: bold;
+      background-color: lavenderblush;
+      color: black;
+      
+
+      font-style:italic;
+ }
+  input[type=radio]{
+      width:29px;
+      height:29px;
+      box-sizing: border-box;
+      padding-bottom: 10mm;
+      margin-bottom: 0%;
+  }
+  .transfertype{
+      font-size:29px ;
+      margin-top:auto;
+      padding-top: 10px;
+  }
+  input[id=AmountN]{
+      width: 200px;
+      border-radius: 1.5mm;
+      
+  }
+  
