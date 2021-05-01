@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+    <script>
+        window.onload= function showTime(){
+            var date= new Date();
+            var seconds= date.getSeconds();
+            var minutes = date.getMinutes();
+            var hours = date.getHours();
+            var sessions ="AM";
+
+            if (hours == 0){
+                hours=12;
+            }
+            if (hours > 12){
+                hours = hours - 12;
+                sessions="PM";
+            }
+             hours =(hours < 10) ? "0"+ hours:hours;
+    
+            
+            minutes = (minutes < 10) ?  "0" + minutes:minutes;
+            
+            seconds = (seconds < 10) ? "0" + seconds:seconds;
+            
+             
+             var time= hours + ":"+  minutes + ":" + seconds + ":"+ sessions;
+              
+             document.getElementById("MyClockDisplay").innerHTML=time;
+
+             document.getElementById("MyClockDisplay").textContent=time;
+
+             setTimeout(showTime,1000);
+             showTime();
+        }
+    </script>
+    <style>
+        body{
+            background-color: green;
+            text-align: center;
+            border:  grey;
+            padding-top:20px;
+            padding-bottom:20px;
+            opacity: 0.4;
+
+        }
+        #MyClockDisplay{
+            background-color: blueviolet;
+            padding:5px 10px;
+            margin:20px 20px;
+            border-style:dashed;
+            border-width:5px 5px;
+            font-size: 200px;
+            font-style:italic;
+            color:white;
+            width: 700px;
+
+
+        }
+        
+    </style>
+
+</body>
+</html>
