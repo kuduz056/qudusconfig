@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(226, 219, 219);
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 15em 0em 15em 0em;
+    background-color: rgb(179, 170, 170);
+    padding:10em 10em;
+    
+    max-width:100%;
+    
+}
+section div#first{
+    background-color: rgb(4, 107, 4);
+    color: white;
+    margin-right:5em;
+    padding-top:2em;
+    height: 34em;
+    justify-content: center;
+    border-radius: 5%;
+    font-size:2em;
+}
+section div#second{
+    background-color: white;
+    color: rgb(4, 107, 4);
+    margin-right:5em;
+    font-size: 2em;
+    height:34em;
+    padding:2em;
+    min-width: 25em;
+    border-radius: 5%;
+}
+section div#third{
+    background-color: white;
+    color: rgb(4, 107, 4);
+    min-width: 25em;
+    font-size:2em;
+    height: 34em;
+    padding:2em;
+    border-radius: 5%;
+    margin-right: 5em;
+}
+section div#first img{
+    
+    top:0em;
+    max-height: 18.3em;
+   
+    position:relative;
+    width:25em;
+    
+}
+
+.tick{
+    padding-right:8px;
+    position: relative;
+    top:0.2em;
+}
+div#third button{
+    width:100%;
+    margin-top:5em;
+    height: 2em;
+    font-size: 1.3em;
+    background-color: rgb(4, 107, 4);
+    border-radius:10px;
+    color: white;
+}
+div#second button{
+    width:100%;
+    margin-top:12em;
+    height: 2em;
+    font-size: 1.3em;
+    background-color: rgb(4, 107, 4);
+    border-radius:10px;
+color: white;
+}
+div#second button:hover{background-color: white;
+color:rgb(4, 107, 4)}
+div#third button:hover{
+background-color: white;
+color:rgb(4, 107, 4);
+
+}
+hr{
+    border-style:dashed;
+}
